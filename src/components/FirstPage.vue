@@ -1,6 +1,6 @@
 <template>
   <section class="text-block">
-    <p>{{ content }}</p>
+    <p style="">{{ content }}</p>
     <form v-if="isLastPage" @submit.prevent="search">
       <input type="text" v-model="searchQuery" placeholder="Search furniture">
       <button class="search-btn" type="submit">

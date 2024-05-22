@@ -14,7 +14,6 @@
           :is-last-page="true"
       />
       <HorizontalBlocks :blocks="horizontalBlocks" />
-      <ProductSlider />
     </main>
   </div>
 </template>
@@ -23,7 +22,7 @@
 import FirstPage from './components/FirstPage.vue';
 import TheHeader from "@/components/TheHeader.vue";
 import HorizontalBlocks from './components/HorizontalBlocks.vue';
-import ProductSlider from './components/ProductSlider.vue';
+import CheckBoxUsage from "@/components/CheckBoxUsage.vue";
 
 
 export default {
@@ -32,7 +31,7 @@ export default {
     TheHeader,
     FirstPage,
     HorizontalBlocks,
-    ProductSlider
+    CheckBoxUsage
   },
   data() {
     return {
