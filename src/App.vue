@@ -14,6 +14,7 @@
           :is-last-page="true"
       />
       <HorizontalBlocks :blocks="horizontalBlocks" />
+      <CheckBoxUsage/>
     </main>
   </div>
 </template>

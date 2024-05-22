@@ -39,7 +39,6 @@ export default {
               <li><a href="#">Chair</a></li>
               <li><a href="#">Beds</a></li>
               <li><a href="#">Sofa</a></li>
-              <li><a href="#">Lamp</a></li>
             </ul>
           </li>
           <li><a href="#">Shop</a></li>
