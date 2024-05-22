@@ -1,7 +1,6 @@
 <template>
   <section class="text-block">
     <p>{{ content }}</p>
-    <!-- Форма поиска -->
     <form v-if="isLastPage" @submit.prevent="search">
       <input type="text" v-model="searchQuery" placeholder="Search furniture">
       <button class="search-btn" type="submit">
@@ -42,8 +41,8 @@ export default {
 .text-block {
   margin: 1rem 0;
   padding: 60px;
-  border: 4px solid #ddd;
-  border-radius: 4px;
+  border: 3px solid #333;
+  border-radius: 10px;
   background-color: #f9f9f9;
   max-width: 500px;
   background-image: url("../assets/img/FirstPageTextBackground.png");
