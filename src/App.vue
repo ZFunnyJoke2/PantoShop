@@ -15,6 +15,7 @@
       />
       <HorizontalBlocks :blocks="horizontalBlocks" />
       <CheckBoxUsage/>
+      <InformationText/>
     </main>
   </div>
 </template>
@@ -24,6 +25,7 @@ import FirstPage from './components/FirstPage.vue';
 import TheHeader from "@/components/TheHeader.vue";
 import HorizontalBlocks from './components/HorizontalBlocks.vue';
 import CheckBoxUsage from "@/components/CheckBoxUsage.vue";
+import InformationText from "@/components/InformationText.vue";
 
 
 export default {
@@ -32,7 +34,8 @@ export default {
     TheHeader,
     FirstPage,
     HorizontalBlocks,
-    CheckBoxUsage
+    CheckBoxUsage,
+    InformationText,
   },
   data() {
     return {
@@ -49,7 +52,7 @@ export default {
 
 <style>
 #app {
-  font-family: Gilroy-Light, sans-serif;
+  font-family: 'Gilroy-Light', sans-serif;
   text-align: left;
   color: #2c3e50;
   margin: -10px 0 0 -10px;

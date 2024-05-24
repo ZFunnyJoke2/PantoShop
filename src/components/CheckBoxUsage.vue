@@ -160,8 +160,6 @@ export default {
   border-color: #333;
 }
 
-
-
 .radio-input:checked + .radio-tile .radio-label {
   color: #333;
 }
