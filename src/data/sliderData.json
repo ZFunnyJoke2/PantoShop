@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "user",
+    "text": "This is the first block of text.",
+    "image": "src/assets/img/ina.png"
+  },
+  {
+    "icon": "user",
+    "text": "This is the second block of text.",
+    "image": "src/assets/img/ina.png"
+  },
+  {
+    "icon": "user",
+    "text": "This is the third block of text.",
+    "image": "src/assets/img/ina.png"
+  }
+]
