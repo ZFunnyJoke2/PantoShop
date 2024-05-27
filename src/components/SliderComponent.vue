@@ -3,8 +3,6 @@
     <h1>Our Client Reviews</h1>
     <div class="slides" :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
       <div v-for="(slide, index) in slides" :key="index" class="slide">
-        <i class="fas fa-user"></i>
-        <img :src="slide.image" alt="Slide Image">
         <p>{{ slide.text }}</p>
       </div>
     </div>
@@ -40,7 +38,7 @@ export default {
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
 }
 .slider h1{
@@ -55,6 +53,8 @@ export default {
   min-width: 100%;
   box-sizing: border-box;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 

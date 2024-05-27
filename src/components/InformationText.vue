@@ -11,8 +11,8 @@
             in their fields, with an elegant and luxurious style and<br>
             with premium quality materials.
           </p>
-          <button @click="showText = true">More info</button>
-          <div id="Text" v-if="showText">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+          <button>More info</button>
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
         </div>
       </div>
@@ -44,57 +44,54 @@
 </script>
 
 <style>
-body {
-  font-family: 'Gilroy-Light', sans-serif;
-}
-
-#Info{
-  margin: auto;
-}
-
-section {
-  padding: 2rem 0;
-}
-
-.experience{
+.experience .content {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  align-items: center; /* Центрирование по вертикали */
+  justify-content: space-between; /* Распределение пространства между элементами */
 }
-
-.experience .content,
+.experience .experience-image {
+  max-width: 50%; /* Устанавливает максимальную ширину изображения */
+  height: auto; /* Сохраняет пропорции изображения */
+}
+.experience .experience-text {
+  max-width: 50%; /* Устанавливает максимальную ширину текста */
+  padding: 20px; /* Отступы вокруг текста */
+}
 .materials .content {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; /* Выравнивание по верхнему краю */
+  justify-content: space-between; /* Распределение пространства между текстом и изображениями */
 }
 
-.experience-image {
-  max-width: 600px;
-  margin-right: 2rem;
+.materials .text-content {
+  max-width: 50%; /* Ограничение ширины текста */
 }
 
-.experience-text h2,
-.materials h2 {
-  font-size: 42px;
-  margin-bottom: 1rem;
-  color: #1E1E1E;
-}
-
-.experience-text p,
-.materials p {
-  font-size: 18px;
-  margin-bottom: 1rem;
-}
-
-.material-images {
+.materials .material-images {
   display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
+  flex-direction: column; /* Вертикальное расположение изображений */
+  align-items: flex-end; /* Выравнивание изображений по правому краю */
+  max-width: 50%; /* Ограничение ширины блока с изображениями */
 }
 
-.material-images img {
-  max-width: 200px;
-  border-radius: 8px;
+.materials .material-images .top-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px; /* Отступ между верхним изображением и нижним рядом изображений */
+}
+
+.materials .material-images .bottom-images {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Промежуток между нижними изображениями */
+}
+
+.materials .material-images img {
+  max-width: 100%; /* Обеспечение адаптивности изображений */
+  height: auto; /* Сохранение пропорций изображений */
+}
+
+.materials .material-images .bottom-images img {
+  width: 48%; /* Устанавливает ширину нижних изображений */
 }
 </style>

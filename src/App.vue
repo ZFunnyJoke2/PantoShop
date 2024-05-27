@@ -23,7 +23,6 @@
     </footer>
   </div>
 </template>
-
 <script>
 import FirstPage from './components/FirstPage.vue';
 import TheHeader from "@/components/TheHeader.vue";
@@ -32,7 +31,6 @@ import CheckBoxUsage from "@/components/CheckBoxUsage.vue";
 import InformationText from "@/components/InformationText.vue";
 import SliderComponent from "@/components/SliderComponent.vue";
 import TheFooter from "@/components/TheFooter.vue";
-
 
 export default {
   name: 'App',

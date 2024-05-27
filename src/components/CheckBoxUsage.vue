@@ -36,19 +36,19 @@
       <ul class="ul-checkbox">
         <li>
           <img src="@/assets/img/1chair.jpg" alt="chair">
-          <p>Sweethome<br> 99$</p>
+          <p>Folsder chair<br> 99$</p>
         </li>
         <li>
-          <img src="@/assets/img/MACQUINN%20CHAIR.jpg" alt="chair">
-          <p>MacQuinn<br> 999$</p>
+          <img src="../assets/img/SKANSNAS.png" alt="chair">
+          <p>Skansnas chair<br> 999$</p>
         </li>
         <li>
-          <img src="@/assets/img/MACQUINN%20CHAIR.jpg" alt="chair">
-          <p>MacQuinn<br> 999$</p>
+          <img src="../assets/img/PINNTORP.png" alt="chair">
+          <p>Pinntorp chair<br> 999$</p>
         </li>
         <li>
           <img src="@/assets/img/3chair.jpg" alt="chair">
-          <p>Seichlka<br> 139$</p>
+          <p>Seichlka chair<br> 139$</p>
         </li>
       </ul>
     </div>
@@ -56,15 +56,15 @@
       <ul class="ul-checkbox">
         <li>
           <img src="@/assets/img/1Bed.jpg" alt="bed">
-          <p>Classic<br> 399$</p>
+          <p>Classic bed<br> 399$</p>
         </li>
         <li>
-          <img src="@/assets/img/MACQUINN%20BED.jpg" alt="bed">
-          <p>MacQuinn<br> 999$</p>
+          <img src="../assets/img/HEMNES.png" alt="bed">
+          <p>Hemnes bed<br> 299$</p>
         </li>
         <li>
-          <img src="@/assets/img/MACQUINN%20BED.jpg" alt="bed">
-          <p>MacQuinn<br> 999$</p>
+          <img src="../assets/img/LYNGОR.png" alt="bed">
+          <p>Lyngor bed<br> 449$</p>
         </li>
         <li>
           <img src="@/assets/img/3Bed.jpg" alt="bed">
@@ -75,20 +75,20 @@
     <div v-if="selectedCategories.includes('Sofa')">
       <ul class="ul-checkbox">
         <li>
-          <img src="@/assets/img/MACQUINN%20SOFA.jpg" alt="sofa">
-          <p>MacQuinn<br> 999$</p>
+          <img src="../assets/img/GLOSTAD.png" alt="sofa">
+          <p>Glostad sofa<br> 499$</p>
         </li>
         <li>
-          <img src="@/assets/img/MACQUINN%20SOFA.jpg" alt="sofa">
-          <p>MacQuinn<br> 999$</p>
+          <img src="../assets/img/FRIDHULT.png" alt="sofa">
+          <p>Fridhult sofa<br> 399$</p>
         </li>
         <li>
-          <img src="@/assets/img/VAIB%20SOFA.jpg" alt="sofa">
-          <p>Vibe<br> 999$</p>
+          <img src="../assets/img/HOLMSUND.png" alt="sofa">
+          <p>Holmsund sofa<br> 299$</p>
         </li>
         <li>
-          <img src="@/assets/img/4EBYRASHKA%20SOFA.jpg" alt="sofa">
-          <p>Chebyrashka<br> 999$</p>
+          <img src="../assets/img/VIMLE.png" alt="sofa">
+          <p>Vimle sofa<br> 399$</p>
         </li>
       </ul>
     </div>
@@ -107,6 +107,7 @@ export default {
 
 <style>
 .title{
+  width: 100%;
   text-align: center;
 }
 

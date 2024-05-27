@@ -8,13 +8,13 @@
       <div class="panto">
         <h2>Panto</h2>
         <p>The advantage of hiring a workspace with<br>
-          us is that givees you comfortable service<br>
+          us is that gives you comfortable service<br>
           and all-around facilities.</p>
       </div>
       <div class="block-of-lists">
         <ul class="list">
           <li><span class="orange">Services</span></li>
-          <li><a href="#">Email marketing</a></li>
+          <li><a href="#">Marketing</a></li>
           <li><a href="#">Campaigns</a></li>
           <li><a href="#">Branding</a></li>
         </ul>
@@ -31,10 +31,10 @@
           <li><img src="../assets/img/004-instagram.png" alt="Instagram"><a href="#">Instagram</a></li>
         </ul>
       </div>
-      <div class="footer-bottom">
-        <p>Copyright ©2024</p>
-        <a href="#">Privacy Policy</a>
-      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright ©2024</p>
+      <a href="#">Privacy Policy</a>
     </div>
   </div>
 </template>
@@ -58,11 +58,10 @@
 }
 .list{
   list-style: none;
-  margin-right: 110px;
+  padding-right: 110px;
 }
 .list img{
   padding-right: 10px;
-
 }
 .list li{
   margin-bottom: 15px;
@@ -73,9 +72,9 @@
   font-size: 18px;
 }
 .panto{
-  margin-left: 180px;
-  margin-top: 10rem;
-  margin-right: 10rem;
+  padding-left: 180px;
+  padding-top: 10rem;
+  padding-right: 10rem;
 }
 .panto h2{
   font-size: 28px;
@@ -84,7 +83,11 @@
   font-size: 18px;
 }
 .footer-bottom{
-  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  padding-left: 180px;
+  padding-top: 30px;
 }
 .footer-bottom a{
   text-decoration: none;
